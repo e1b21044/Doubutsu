@@ -12,6 +12,7 @@ void setup() {
 void draw() {
   board.draw();
   komaList.draw();
+  gs = new GameStatus();
 }
 
 
